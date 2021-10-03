@@ -38,7 +38,7 @@ console.log(sumUpAlt(5))
 myArray = [1, 3, 10]
 
 function sumNumbers(n) {
-  result = n.reduce((a, b) => a + b, 0)
+  result = n.reduce((a, b) => a + b)
   return result
 }
 

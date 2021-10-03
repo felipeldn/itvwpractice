@@ -13,3 +13,14 @@ function sumUp(n) {
 }
 
 console.log(sumUp(3))
+
+// let start = 0;
+// let end = 0;
+
+// start = performance.now();
+// sumUp(5)
+// end = performance.now();
+
+// perf = end - start;
+
+// console.log(perf)

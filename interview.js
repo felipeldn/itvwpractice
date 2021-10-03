@@ -14,13 +14,19 @@ function sumUp(n) {
 
 console.log(sumUp(3))
 
-let start = 0;
-let end = 0;
+// let start = 0;
+// let end = 0;
 
-start = performance.now();
-sumUp(5)
-end = performance.now();
+// start = performance.now();
+// sumUp(5)
+// end = performance.now();
 
-perf = end - start;
+// perf = end - start;
 
-console.log(perf)
+// console.log(perf)
+
+function sumUpTwo(n) {
+  return (n / 2) * (1 + n);
+}
+
+console.log(sumUpTwo(5))

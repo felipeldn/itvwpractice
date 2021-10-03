@@ -6,7 +6,7 @@ console.log(myArray)
 
 function sumUp(n) { 
     let result = 0;
-    for (let i = 1; i <= n; i++) {           // Linear time - A bigger 'n' in this function would lead to more interations, increasing the time it takes to perform the function in a linear way. 
+    for (let i = 1; i <= n; i++) {           // Linear time - A bigger 'n' in this function would lead to more interations, increasing the time it takes to perform the function in a linear way. This function has linear time complexion.
        result = result + i;
    }
   return result;
@@ -26,7 +26,7 @@ console.log(sumUp(3))
 // console.log(perf)
 
 function sumUpTwo(n) {
-  return (n / 2) * (1 + n);                      // This function operates within the same time period regardless of the argument given for 'n'. This is function operating in constant time. 
+  return (n / 2) * (1 + n);                      // This function operates within the same time period regardless of the argument given for 'n'. This is function has constant time complexion. 
 }
 
 console.log(sumUpTwo(5))

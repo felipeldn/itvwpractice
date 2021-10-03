@@ -25,8 +25,8 @@ console.log(sumUp(3))
 
 // console.log(perf)
 
-function sumUpTwo(n) {
+function sumUpAlt(n) {
   return (n / 2) * (1 + n);                      // This function operates within the same time period regardless of the argument given for 'n'. This is function has constant time complexion. 
 }
 
-console.log(sumUpTwo(5))
+console.log(sumUpAlt(5))

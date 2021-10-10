@@ -37,9 +37,23 @@ console.log(sumUpAlt(5))
 
 myArray = [1, 3, 10]
 
-function sumNumbers(n) {
-  result = n.reduce((a, b) => a + b)
+function sumNumbers(numbers) {
+  result = numbers.reduce((a, b) => a + b)
   return result
 }
 
 console.log(sumNumbers(myArray))
+
+function response( input ) {
+  //Insert your code here 
+  const response = []; 
+ for (var i=1; i <= input; i++){
+   if (i % 15 == 0) response.push("FizzBuzz");
+   else if (i % 3 == 0) response.push("Fizz");
+   else if (i % 5 == 0) response.push("Buzz");
+   else response.push(i);
+ }
+ return response;
+}
+
+console.log(response(15))

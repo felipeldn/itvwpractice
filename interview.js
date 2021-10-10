@@ -97,3 +97,20 @@ function sumOddNumbers(numbers) {
 
   return sum
 }
+
+// return average
+
+function getAverageValue(grades) {
+  // TODO: return the average value of all grades (sum of all grades divided by the total number of grades)
+  let sum = 0 
+  let count = grades.length
+
+  grades.forEach(function(grade){
+      sum = sum + grade
+  })
+
+  let average = sum / count
+
+  return average 
+
+}

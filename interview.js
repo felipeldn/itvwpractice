@@ -83,3 +83,17 @@ function sumPositiveNumbers(numbers) {
 
   return sum
 }
+
+// Sum odd numbers 
+
+function sumOddNumbers(numbers) {
+  let sum = 0
+
+  numbers.forEach(function(number) {
+      if (number % 2 !== 0) {
+          sum = sum + number
+      }
+  })
+
+  return sum
+}

@@ -69,3 +69,17 @@ function sumGrades(grades) {
 
   return sum
 }
+
+// Sum positive numbers
+
+function sumPositiveNumbers(numbers) {
+  let sum = 0
+
+  numbers.forEach(function(number) {
+      if (number > 0) {
+          sum = sum + number
+      }
+  })
+
+  return sum
+}

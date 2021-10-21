@@ -1,4 +1,4 @@
-var myArray = ['a', 'b', 'c', 'd']
+let myArray = ['a', 'b', 'c', 'd']
 
 myArray = ["start",...myArray, "end"]
 
@@ -36,7 +36,7 @@ console.log(sumNumbers(myArray))
 function response( input ) {
   //Insert your code here 
   const response = []; 
- for (var i = 1; i <= input; i++){
+ for (let i = 1; i <= input; i++){
    if (i % 15 == 0) response.push("FizzBuzz");
    else if (i % 3 == 0) response.push("Fizz");
    else if (i % 5 == 0) response.push("Buzz");
@@ -136,9 +136,9 @@ function stringCompression (str) {
     console.log('Please enter valid string.');
     return;
   }
-  var output = '';
-  var count = 0;
-  for (var i = 0; i < str.length; i++) {
+  let output = '';
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
     count++;
     if (str[i] != str[i+1]) {
       output += str[i] + count;

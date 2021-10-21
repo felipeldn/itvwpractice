@@ -142,14 +142,11 @@ function stringCompression (string) {
 
   let output = "";
   let count = 0;
-  let currentChar = ""
 
   for (let i = 0; i < string.length; i++) {
     count++;
     
-    currentChar = string[i];
-
-    if (currentChar != string[i+1]) {
+    if (string[i] != string[i+1]) {
       output += string[i] + count;
       count = 0;
     }

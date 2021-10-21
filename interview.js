@@ -138,7 +138,7 @@ function stringCompression (string) {
     console.log("Please enter valid string.");
     return;
   }
-  let output = '';
+  let output = "";
   let count = 0;
   for (let i = 0; i < string.length; i++) {
     count++;

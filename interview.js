@@ -131,6 +131,8 @@ function stringAnagrams(a, b) {
   )
 }
 
+// create a function to compress a string from aaaabbbccab into a5b4c2
+
 function stringCompression (str) {
   if (str.length ==0) {
     console.log('Please enter valid string.');

@@ -14,17 +14,6 @@ function sumUp(n) {
 
 console.log(sumUp(3))
 
-// let start = 0;
-// let end = 0;
-
-// start = performance.now();
-// sumUp(5)
-// end = performance.now();
-
-// perf = end - start;
-
-// console.log(perf)
-
 function sumUpAlt(n) {
   return (n / 2) * (1 + n);                      // This function operates within the same time period regardless of the argument given for 'n'. This is function has constant time complexion. 
 }
@@ -140,4 +129,21 @@ function stringAnagrams(a, b) {
     ? a + " and " + b + " are anagrams! "
     : a + " and " + b + " are not anagrams! "
   )
+}
+
+function stringCompression (str) {
+  if (str.length ==0) {
+    console.log('Please enter valid string.');
+    return;
+  }
+  var output = '';
+  var count = 0;
+  for (var i = 0; i < str.length; i++) {
+    count++;
+    if (str[i] != str[i+1]) {
+      output += str[i] + count;
+      count = 0;
+    }
+  }
+  console.log(output);
 }

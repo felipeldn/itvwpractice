@@ -135,7 +135,7 @@ function stringAnagrams(a, b) {
 
 function stringCompression (string) {
   if (string.length == 0) {
-    console.log('Please enter valid string.');
+    console.log("Please enter valid string.");
     return;
   }
   let output = '';

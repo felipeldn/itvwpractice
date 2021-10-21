@@ -133,17 +133,17 @@ function stringAnagrams(a, b) {
 
 // create a function to compress a string from aaaabbbccab into a5b4c2
 
-function stringCompression (str) {
-  if (str.length ==0) {
+function stringCompression (string) {
+  if (string.length ==0) {
     console.log('Please enter valid string.');
     return;
   }
   let output = '';
   let count = 0;
-  for (let i = 0; i < str.length; i++) {
+  for (let i = 0; i < string.length; i++) {
     count++;
-    if (str[i] != str[i+1]) {
-      output += str[i] + count;
+    if (string[i] != string[i+1]) {
+      output += string[i] + count;
       count = 0;
     }
   }

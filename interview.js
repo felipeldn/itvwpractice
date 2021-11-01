@@ -33,19 +33,20 @@ function sumNumbers(numbers) {
 
 console.log(sumNumbers(myArray))
 
-function response( input ) {
-  //Insert your code here 
-  const response = []; 
+function fizzBuzz( input ) {
+
+  const fizzBuzz = []; 
+  
  for (let i = 1; i <= input; i++){
-   if (i % 15 == 0) response.push("FizzBuzz");
-   else if (i % 3 == 0) response.push("Fizz");
-   else if (i % 5 == 0) response.push("Buzz");
-   else response.push(i);
+   if (i % 15 == 0) fizzBuzz.push("FizzBuzz");
+   else if (i % 3 == 0) fizzBuzz.push("Fizz");
+   else if (i % 5 == 0) fizzBuzz.push("Buzz");
+   else fizzBuzz.push(i);
  }
- return response;
+ return fizzBuzz;
 }
 
-console.log(response(15))
+console.log(fizzBuzz(60))
 
 // Sum grades
 

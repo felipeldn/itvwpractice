@@ -108,7 +108,7 @@ function getAverageValue(grades) {
 // Alter elements in array
 
 function getRaisedGrades(grades) {
-  // TODO: return all the grades raised by 1 (no grade should exceed 20)
+  
   const raisedGrades = grades.map(function(grade){
       if (grade + 1 > 20) {
           return 20

@@ -91,7 +91,7 @@ function sumOddNumbers(numbers) {
 // return average
 
 function getAverageValue(grades) {
-  // TODO: return the average value of all grades (sum of all grades divided by the total number of grades)
+  
   let sum = 0 
   let count = grades.length
 

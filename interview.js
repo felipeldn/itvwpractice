@@ -21,7 +21,6 @@ function sumUpAlt(n) {
 console.log(sumUpAlt(5))
 
 // Write an algorithm that takes an array of numbers as input and calculates the sum of those numbers
-// function sumNumbers() { } 
 // sumNumbers([1, 3, 10]) should yield 14
 
 myArray = [1, 3, 10]
